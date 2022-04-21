@@ -12,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <h1>MSJ CS Club: 99% degen conversation, 1% actual CS</h1>
+      <img src="/animation.gif" />
     </div>
   );
 };
