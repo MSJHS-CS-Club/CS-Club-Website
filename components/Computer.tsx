@@ -9,11 +9,11 @@ export const Computer = () => {
     gltf.scene.rotation.y += 0.005;
     gltf.scene.position.y = -0.7;
     gltf.scene.position.x = -0.2;
-    gltf.scene.rotation.x = 0.01;
+    gltf.scene.rotation.x = 0.5;
   });
   return (
     <>
-      <primitive object={gltf.scene} scale={0.122} />
+      <primitive object={gltf.scene} scale={0.101} />
     </>
   );
 };
