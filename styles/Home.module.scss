@@ -8,11 +8,22 @@
   align-items: center;
 }
 
-.intro {
-  // padding: 2rem;
-}
-
 .canvas {
   height: 50vh;
   width: 100%;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.button_link {
+  border-radius: 15px;
+  border: none;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2em;
 }

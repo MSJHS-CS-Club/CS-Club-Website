@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={styles.hero}>
-        <div className={styles.intro}>
+        <div>
           <h1 style={{ fontSize: "54px", textAlign: "center" }}>MSJ CS Club</h1>
           <p style={{ textAlign: "center" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
@@ -38,39 +38,23 @@ const Home: NextPage = () => {
           </Canvas>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          margin: "1rem",
-        }}
-      >
+      <div className={styles.button_container}>
         <button
+          className={styles.button_link}
           style={{
-            borderRadius: "10px",
-            border: "none",
-            padding: "1rem",
-            fontFamily: "Inter",
-            fontWeight: "bold",
             backgroundColor: "#5865F2",
             color: "white",
-            fontSize: "1.2rem",
             marginRight: "1rem",
           }}
         >
           Join our Dicsord
         </button>
         <button
+          className={styles.button_link}
           style={{
-            borderRadius: "10px",
-            border: "none",
-            padding: "1rem",
-            fontFamily: "Inter",
-            fontWeight: "bold",
             backgroundColor: "#5865F2",
             color: "white",
-            fontSize: "1.2rem",
+            marginRight: "1rem",
           }}
         >
           Blogs
