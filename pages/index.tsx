@@ -16,14 +16,36 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={styles.hero}>
-        <div>
-          <h1 style={{ fontSize: "54px", textAlign: "center" }}>MSJ CS Club</h1>
-          <p style={{ textAlign: "center" }}>
+        <div className={styles.intro}>
+          <h1 style={{ fontSize: "54px" }}>MSJ CS Club</h1>
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
             aspernatur nobis perspiciatis velit possimus sapiente adipisci iste
             assumenda. Voluptates adipisci voluptatem rerum. Eaque facere
             placeat consequatur expedita excepturi blanditiis explicabo.
           </p>
+          <div>
+            <button
+              className={styles.button_link}
+              style={{
+                backgroundColor: "#5865F2",
+                color: "white",
+                marginRight: "1rem",
+              }}
+            >
+              Join our Dicsord
+            </button>
+            <button
+              className={styles.button_link}
+              style={{
+                backgroundColor: "#5865F2",
+                color: "white",
+                marginRight: "1rem",
+              }}
+            >
+              Blogs
+            </button>
+          </div>
         </div>
         <div className={styles.canvas}>
           <Canvas>
@@ -37,28 +59,6 @@ const Home: NextPage = () => {
             </Suspense>
           </Canvas>
         </div>
-      </div>
-      <div className={styles.button_container}>
-        <button
-          className={styles.button_link}
-          style={{
-            backgroundColor: "#5865F2",
-            color: "white",
-            marginRight: "1rem",
-          }}
-        >
-          Join our Dicsord
-        </button>
-        <button
-          className={styles.button_link}
-          style={{
-            backgroundColor: "#5865F2",
-            color: "white",
-            marginRight: "1rem",
-          }}
-        >
-          Blogs
-        </button>
       </div>
     </div>
   );
