@@ -1,17 +1,18 @@
 .hero {
   display: flex;
+  flex-direction: column-reverse;
   max-width: 800px;
   margin: auto;
   justify-content: center;
-  height: 50vh;
+  // height: 50vh;
   align-items: center;
 }
 
 .intro {
-  padding: 2rem;
+  // padding: 2rem;
 }
 
 .canvas {
-  height: 75%;
+  height: 50vh;
   width: 100%;
 }

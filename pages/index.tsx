@@ -17,8 +17,8 @@ const Home: NextPage = () => {
 
       <div className={styles.hero}>
         <div className={styles.intro}>
-          <h1>MSJ CS Club</h1>
-          <p>
+          <h1 style={{ fontSize: "54px", textAlign: "center" }}>MSJ CS Club</h1>
+          <p style={{ textAlign: "center" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
             aspernatur nobis perspiciatis velit possimus sapiente adipisci iste
             assumenda. Voluptates adipisci voluptatem rerum. Eaque facere
@@ -37,6 +37,44 @@ const Home: NextPage = () => {
             </Suspense>
           </Canvas>
         </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          margin: "1rem",
+        }}
+      >
+        <button
+          style={{
+            borderRadius: "10px",
+            border: "none",
+            padding: "1rem",
+            fontFamily: "Inter",
+            fontWeight: "bold",
+            backgroundColor: "#5865F2",
+            color: "white",
+            fontSize: "1.2rem",
+            marginRight: "1rem",
+          }}
+        >
+          Join our Dicsord
+        </button>
+        <button
+          style={{
+            borderRadius: "10px",
+            border: "none",
+            padding: "1rem",
+            fontFamily: "Inter",
+            fontWeight: "bold",
+            backgroundColor: "#5865F2",
+            color: "white",
+            fontSize: "1.2rem",
+          }}
+        >
+          Blogs
+        </button>
       </div>
     </div>
   );
