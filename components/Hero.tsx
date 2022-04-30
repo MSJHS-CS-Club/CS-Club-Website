@@ -30,7 +30,12 @@ export const Hero = () => {
               }}
             >
               <FaDiscord size={25} />
-              <span style={{ marginLeft: "10px" }}>Join our Discord</span>
+              <span style={{
+                marginLeft: "10px",
+                height: "30px",
+                display: "flex",
+                alignItems: "center",
+              }}>Join our Discord</span>
             </button>
           </a>
           <a href="">
@@ -44,6 +49,7 @@ export const Hero = () => {
                   "linear-gradient(90deg, rgba(0,187,197,1) 0%, rgba(79,172,254,1) 50%)",
                 display: "flex",
                 alignItems: "center",
+                height: "57px",
               }}
             >
               <span style={{ marginRight: "10px" }}>Blogs</span>
