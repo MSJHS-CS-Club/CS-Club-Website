@@ -1,0 +1,28 @@
+.haiku_vh {
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    padding: 4rem;
+}
+.haiku_container {
+    margin-bottom: 2em;
+    line-height: 0.25em;
+}
+.haiku_line {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+.haiku_note {
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+}
+.green {
+    color: #57F287;
+}
+.yellow {
+    color: #FEE75C;
+}
+.red {
+    color: #EB459E;
+}

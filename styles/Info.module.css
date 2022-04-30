@@ -10,7 +10,12 @@
   align-items: center;
   padding:3rem;
 }
-
+.cool_stuff {
+  font-size: 3rem;
+}
+.cool_stuff_stuff {
+  font-size: 1.25em;
+}
 .mosaic_container {
   display: flex;
   margin-right: 4rem;
