@@ -5,7 +5,7 @@ export const Haiku = () => {
             <div>
                 <div className={styles.haiku_line}>"Come to <span className={styles.green}>C16</span></div>
                 <div className={styles.haiku_line}>To <span className={styles.yellow}>code and learn together</span>,</div>
-                <div className={styles.haiku_line}>On <span className={styles.red}>Fridays</span> during <span className={styles.red}>Lunch</span> time!"</div>
+                <div className={styles.haiku_line}>On <span className={styles.red}>Fridays</span> at <span className={styles.red}>Lunch</span>!"</div>
                 <p className={styles.haiku_note}>- A Haiku by the CS Club</p>
             </div>
         </div>
