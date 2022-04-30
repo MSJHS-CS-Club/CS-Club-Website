@@ -13,6 +13,5 @@
 
 .mosaic_container {
   display: flex;
-  margin:auto;
   margin-right: 4rem;
 }
