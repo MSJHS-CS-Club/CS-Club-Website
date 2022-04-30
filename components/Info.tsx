@@ -19,7 +19,7 @@ export const Info = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div style={{ maxWidth: "500px" }}>
         <h1>We talk about really cool stuff.</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo dolorem
