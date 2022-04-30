@@ -5,4 +5,15 @@
     rgba(68, 199, 182, 1) 0%,
     rgba(115, 110, 254, 1) 75%
   );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+  padding:3rem;
+}
+
+.mosaic_container {
+  display: flex;
+  margin:auto;
+  margin-right: 4rem;
 }
