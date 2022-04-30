@@ -13,7 +13,7 @@ export const Computer = () => {
   });
   return (
     <>
-      <primitive object={gltf.scene} scale={0.101} />
+      <primitive object={gltf.scene} scale={0.1} />
     </>
   );
 };

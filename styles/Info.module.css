@@ -1,0 +1,8 @@
+.info {
+  height: 80vh;
+  background: linear-gradient(
+    128deg,
+    rgba(68, 199, 182, 1) 0%,
+    rgba(115, 110, 254, 1) 75%
+  );
+}

@@ -19,7 +19,19 @@
 .button_link {
   border-radius: 15px;
   border: none;
-  padding: 1.5rem;
+
+  padding-left: 18px;
+  padding-right: 18px;
+
+  padding-top: 13px;
+  padding-bottom: 13px;
+
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
 }
