@@ -1,7 +1,26 @@
-import WidgetBot from "@widgetbot/react-embed";
 import styles from "../styles/Discord.module.css";
+import dynamic from "next/dynamic";
+import { useEffect } from "react";
+
+const WidgetBot = dynamic(() => import("@widgetbot/react-embed"), {
+  ssr: false,
+});
 
 export const Discord = () => {
+  // useEffect(() => {
+  //   async function loadCrate() {
+  //     const result = await import("@widgetbot/crate");
+  //     const Crate = await result.cdn();
+
+  //     new Crate({
+  //       server: "769054813920559114",
+  //       channel: "769054813920559117",
+  //     });
+  //   }
+
+  //   loadCrate();
+  // }, []);
+
   return (
     <div className={styles.main_section}>
       <div className={styles.widget_container}>
