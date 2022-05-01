@@ -42,7 +42,7 @@ export const Discord = () => {
       </h1>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <p
-          style={{ textAlign: "center", maxWidth: "600px", fontSize: "1.25em" }}
+          style={{ textAlign: "center", maxWidth: "600px", fontSize: "1.1em" }}
         >
           This is where all the fun happensLorem ipsum dolor sit amet
           consectetur adipisicing elit. Inventore aspernatur nobis perspiciatis
