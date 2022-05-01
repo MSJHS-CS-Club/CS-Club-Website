@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Hero } from "../components/Hero";
 import { Info } from "../components/Info";
 import { Haiku } from "../components/Haiku";
+import { Discord } from "../components/Discord";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Hero />
       <Info />
       <Haiku />
+      <Discord />
     </div>
   );
 };
