@@ -23,33 +23,37 @@ export const Discord = () => {
 
   return (
     <div className={styles.main_section}>
-      <div className={styles.widget_container}>
-        <WidgetBot
-          className={styles.widget}
-          server="769054813920559114"
-          channel="769054813920559117"
-        />
-      </div>
       <h1
         style={{
-          marginTop: "2.5rem",
-          marginBottom: "0.9rem",
+          marginBottom: "1.5rem",
           fontSize: "3em",
           textAlign: "center",
         }}
       >
         C'mon, Join our Discord Server
       </h1>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <p
-          style={{ textAlign: "center", maxWidth: "600px", fontSize: "1.1em" }}
-        >
-          This is where all the fun happensLorem ipsum dolor sit amet
-          consectetur adipisicing elit. Inventore aspernatur nobis perspiciatis
-          velit possimus sapiente adipisci iste assumenda. Voluptates adipisci
-          voluptatem rerum. Eaque facere placeat consequatur expedita excepturi
-          blanditiis explicabo.
-        </p>
+
+      <p
+        style={{
+          textAlign: "center",
+          maxWidth: "600px",
+          margin: "auto",
+          marginBottom: "2.5rem",
+        }}
+      >
+        This is where all the fun happensLorem ipsum dolor sit amet consectetur
+        adipisicing elit. Inventore aspernatur nobis perspiciatis velit possimus
+        sapiente adipisci iste assumenda. Voluptates adipisci voluptatem rerum.
+        Eaque facere placeat consequatur expedita excepturi blanditiis
+        explicabo.
+      </p>
+
+      <div className={styles.widget_container}>
+        <WidgetBot
+          className={styles.widget}
+          server="769054813920559114"
+          channel="769054813920559117"
+        />
       </div>
     </div>
   );

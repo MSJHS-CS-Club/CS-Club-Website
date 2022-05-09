@@ -30,16 +30,20 @@ export const Hero = () => {
               }}
             >
               <FaDiscord size={25} />
-              <span style={{
-                marginLeft: "10px",
-                height: "30px",
-                display: "flex",
-                alignItems: "center",
-              }}>Join our Discord</span>
+              <span
+                style={{
+                  marginLeft: "10px",
+                  height: "30px",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                Join our Discord
+              </span>
             </button>
           </a>
-          <a href="">
-            <button
+          <a href="/blogs">
+            <div
               className={styles.button_link}
               style={{
                 backgroundColor: "#5865F2",
@@ -54,7 +58,7 @@ export const Hero = () => {
             >
               <span style={{ marginRight: "10px" }}>Blogs</span>
               <FaArrowRight size={15} />{" "}
-            </button>
+            </div>
           </a>
         </div>
       </div>
