@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* grid-column-gap: 15px; */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    transition: ease-in-out 0.1s;
+}
+
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}

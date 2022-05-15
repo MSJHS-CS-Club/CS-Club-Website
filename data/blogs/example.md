@@ -1,6 +1,6 @@
 ---
 title: A trip to Iceland
-date: "April 30th, 2022"
+date: "April 30, 2022"
 slug: "ur-mom.exe"
 ---
 
