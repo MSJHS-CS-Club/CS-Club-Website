@@ -12,7 +12,7 @@ export const Info = () => {
             <Tile img={"/apple.png"} />
           </div>
         </div>
-        <div style={{ marginLeft: "2.815rem", transform: "translateY(50px)" }}>
+        <div className={styles.shifted_tiles}>
           <Tile img={"/computer.png"} />
           <div style={{ marginTop: "2.815rem" }}>
             <Tile img={"/nerd.png"} />

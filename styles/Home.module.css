@@ -35,3 +35,26 @@
   align-items: center;
   margin-top: 2rem;
 }
+
+@media (max-width: 910px) { 
+
+  .hero{
+    flex-direction: column-reverse;
+    height: auto;
+
+  }
+
+  .canvas {
+    height: 400px;
+    width: 100%;
+  }
+
+  .intro{
+    width: auto;
+    text-align: center;
+    padding:2rem;
+  }
+  .button_container{
+    justify-content: center;
+  }
+}
