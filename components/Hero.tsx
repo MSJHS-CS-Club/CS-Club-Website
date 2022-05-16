@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.intro}>
-        <h1 style={{ fontSize: "54px" }}>MSJ CS Club</h1>
+        <h1 style={{ fontSize: "clamp(36px,8vw,54px)" }}>MSJ CS Club</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           aspernatur nobis perspiciatis velit possimus sapiente adipisci iste

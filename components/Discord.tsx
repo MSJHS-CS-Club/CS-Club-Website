@@ -26,7 +26,7 @@ export const Discord = () => {
       <h1
         style={{
           marginBottom: "1.5rem",
-          fontSize: "3em",
+          fontSize: "clamp(2em,5vw,2.5em)",
           textAlign: "center",
         }}
       >
@@ -36,6 +36,7 @@ export const Discord = () => {
       <p
         style={{
           textAlign: "center",
+          fontSize: "0.9em",
           maxWidth: "600px",
           margin: "auto",
           marginBottom: "2.5rem",

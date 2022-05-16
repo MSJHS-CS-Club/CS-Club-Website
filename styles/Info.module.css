@@ -11,7 +11,8 @@
   padding:3rem;
 }
 .cool_stuff {
-  font-size: 3rem;
+  /* fontSize: "clamp(36px,8vw,54px)" */
+  font-size: clamp(2rem, 12vw, 3rem);  
 }
 .cool_stuff_stuff {
   font-size: 1.25em;
