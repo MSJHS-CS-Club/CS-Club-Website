@@ -1,5 +1,5 @@
 .haiku_vh {
-    /* height: 50vh; */
+    height: 50vh;
     justify-content: center;
     display: flex;
     padding: 4rem;

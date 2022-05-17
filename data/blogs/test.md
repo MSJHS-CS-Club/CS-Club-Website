@@ -6,6 +6,8 @@ slug: "uasdfsdfsdfr-mom.exe"
 
 ![USACO Guide](https://github.com/cpinitiative/usaco-guide/blob/master/src/assets/banner-image-big.jpg?raw=true)
 
+https://youtube.com
+
 # USACO Guide
 
 A free collection of curated, high-quality resources to take you from Bronze to

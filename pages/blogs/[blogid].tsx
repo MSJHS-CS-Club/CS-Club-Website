@@ -1,13 +1,21 @@
 import ReactMarkdown from "react-markdown";
 import scrapeBlogs from "../../data/scrapeBlogs";
 import { NextPage } from "next";
-import { BlogNavbar } from "../../components/BlogNavbar";
+import { Navbar } from "../../components/Navbar";
+import remarkGfm from "remark-gfm";
 
 const SpecificBlog: NextPage = ({ blog }: any) => {
   return (
     <>
-      <BlogNavbar />
-      <div style={{ maxWidth: "650px", margin: "auto", padding: "1.5rem" }}>
+      <Navbar />
+      <div
+        style={{
+          maxWidth: "650px",
+          margin: "auto",
+          padding: "1.5rem",
+          color: "white",
+        }}
+      >
         <h1>{blog.data.title}</h1>
         <p style={{ textTransform: "uppercase" }}>
           {new Date(blog.data.date).toLocaleDateString(undefined, {
@@ -15,7 +23,7 @@ const SpecificBlog: NextPage = ({ blog }: any) => {
           })}
         </p>
         <hr />
-        <ReactMarkdown>{blog.content}</ReactMarkdown>
+        <ReactMarkdown children={blog.content} remarkPlugins={[remarkGfm]} />
       </div>
     </>
   );

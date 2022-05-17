@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import { Navbar } from "../../components/Navbar";
 import scrapeBlogs from "../../data/scrapeBlogs";
 
 import styles from "../../styles/BlogIndex.module.css";
@@ -6,11 +7,15 @@ import styles from "../../styles/BlogIndex.module.css";
 const Blogs: NextPage = ({ posts }: any) => {
   return (
     <div>
-      <h1>Blogs</h1>
+      <Navbar />
+      <h1 className={styles.special_padding}>Blogs</h1>
       <div className={styles.grid}>
         {posts.map((item: any, i: number) => {
           return (
-            <a href={`/blogs/${item.data.slug}`}>
+            <a
+              href={`/blogs/${item.data.slug}`}
+              style={{ textDecoration: "none" }}
+            >
               <div key={i} className={styles.card}>
                 <small
                   style={{

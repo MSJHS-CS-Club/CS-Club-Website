@@ -17,7 +17,10 @@ export const Hero = () => {
           consequatur expedita excepturi blanditiis explicabo.
         </p>
         <div className={styles.button_container}>
-          <a href="https://discord.gg/dqaSMVEF69">
+          <a
+            href="https://discord.gg/dqaSMVEF69"
+            style={{ textDecoration: "none" }}
+          >
             <button
               className={styles.button_link}
               style={{
@@ -42,7 +45,8 @@ export const Hero = () => {
               </span>
             </button>
           </a>
-          <a href="/blogs">
+
+          <a href="/blogs" style={{ textDecoration: "none" }}>
             <div
               className={styles.button_link}
               style={{

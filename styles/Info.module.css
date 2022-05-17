@@ -15,7 +15,7 @@
   font-size: clamp(2rem, 12vw, 3rem);  
 }
 .cool_stuff_stuff {
-  font-size: 1.25em;
+  font-size: clamp(1em,4vw,1.25em);
 }
 .mosaic_container {
   display: flex;
