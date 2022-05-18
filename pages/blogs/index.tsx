@@ -15,8 +15,9 @@ const Blogs: NextPage = ({ posts }: any) => {
             <a
               href={`/blogs/${item.data.slug}`}
               style={{ textDecoration: "none" }}
+              key={i}
             >
-              <div key={i} className={styles.card}>
+              <div className={styles.card}>
                 <small
                   style={{
                     textTransform: "uppercase",
