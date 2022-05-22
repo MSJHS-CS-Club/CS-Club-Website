@@ -3,19 +3,23 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    padding:2rem;
+
 }
 .haiku_container {
     margin-bottom: 2em;
+    padding:4rem;
     line-height: 0.25em;
 }
 .haiku_line {
     color: white;
-    font-size: clamp(2em,8vw,3em);
+    font-size: clamp(1.2em,5vw,3em);
     font-weight: bold;
+    
 }
 .haiku_note {
     margin-top: 1.5em;
-    font-size: clamp(1rem,4vw,1.3rem);
+    font-size: clamp(0.95rem,4vw,1.3rem);
 
 }
 .green {
