@@ -1,5 +1,7 @@
 .widget_container{
     width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
     height: 100%;
     padding-bottom: 4rem;
 }
