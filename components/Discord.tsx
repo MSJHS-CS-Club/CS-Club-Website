@@ -33,27 +33,11 @@ export const Discord = () => {
         C'mon, Join our Discord Server
       </h1>
 
-      <p
-        style={{
-          textAlign: "center",
-          fontSize: "0.9em",
-          maxWidth: "600px",
-          margin: "auto",
-          marginBottom: "2.5rem",
-        }}
-      >
-        This is where all the fun happensLorem ipsum dolor sit amet consectetur
-        adipisicing elit. Inventore aspernatur nobis perspiciatis velit possimus
-        sapiente adipisci iste assumenda. Voluptates adipisci voluptatem rerum.
-        Eaque facere placeat consequatur expedita excepturi blanditiis
-        explicabo.
-      </p>
-
       <div className={styles.widget_container}>
         <WidgetBot
           className={styles.widget}
-          server="769054813920559114"
-          channel="769054813920559117"
+          server="742231372860489779"
+          channel="742231373305348166"
         />
       </div>
     </div>

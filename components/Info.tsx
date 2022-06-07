@@ -22,10 +22,10 @@ export const Info = () => {
       <div style={{ maxWidth: "500px" }}>
         <h1 className={styles.cool_stuff}>We talk about really cool stuff.</h1>
         <p className={styles.cool_stuff_stuff}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo dolorem
-          deleniti suscipit commodi saepe quam tempore veritatis molestias
-          beatae et debitis id explicabo delectus modi, possimus corporis
-          excepturi quae neque.
+          From memory management to OpenGL, we talk about it all. We talk about
+          all concepts with depth and conciseness, with effective lectures.
+          Attend our meetings to learn about this cool stuff, and to have a
+          great time in the process.
         </p>
       </div>
       {/* </div> */}

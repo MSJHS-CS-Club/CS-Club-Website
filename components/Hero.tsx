@@ -10,11 +10,39 @@ export const Hero = () => {
     <div className={styles.hero}>
       <div className={styles.intro}>
         <h1 style={{ fontSize: "clamp(36px,8vw,54px)" }}>MSJ CS Club</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          aspernatur nobis perspiciatis velit possimus sapiente adipisci iste
-          assumenda. Voluptates adipisci voluptatem rerum. Eaque facere placeat
-          consequatur expedita excepturi blanditiis explicabo.
+        <p style={{ lineHeight: "1.65em" }}>
+          Mission San Jose High School's computer science club! At MSJ CS, we
+          are{" "}
+          <span
+            style={{
+              backgroundColor: "rgba(87,242,135, 0.5)",
+              padding: "0.2rem",
+              borderRadius: "5px",
+            }}
+          >
+            innovators
+          </span>
+          ,{" "}
+          <span
+            style={{
+              backgroundColor: "rgba(254, 231, 92, 0.5)",
+              padding: "0.2rem",
+              borderRadius: "5px",
+            }}
+          >
+            collaborators
+          </span>
+          , and{" "}
+          <span
+            style={{
+              backgroundColor: "rgba(235, 69, 158, 0.5)",
+              padding: "0.2rem",
+              borderRadius: "5px",
+            }}
+          >
+            passionate explorers
+          </span>{" "}
+          in computer science.
         </p>
         <div className={styles.button_container}>
           <a
