@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import { Navbar } from "../../components/Navbar";
-import scrapeBlogs from "../../data/scrapeBlogs";
+import scrapeBlogs from "../../data/scrapeWritings";
 
 import styles from "../../styles/BlogIndex.module.css";
 
@@ -40,7 +40,7 @@ const Blogs: NextPage = ({ posts }: any) => {
 };
 
 export const getStaticProps = () => {
-  const files = scrapeBlogs();
+  const files = scrapeBlogs("blogs");
   return {
     props: { posts: files },
   };

@@ -3,8 +3,10 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-export default function scrapeBlogs() {
-  const filenames = fs.readdirSync(path.join(process.cwd(), "data", "blogs"));
+type scrapeBlogInput = "blogs" | "lectures"
+
+export default function scrapeWritings(typeOfWriting: scrapeBlogInput) {
+  const filenames = fs.readdirSync(path.join(process.cwd(), "data", typeOfWriting));
   let files = [];
   for (const file of filenames) {
     let data: any = matter(

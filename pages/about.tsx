@@ -24,6 +24,9 @@ const Home: NextPage = () => {
           We are the computer science club at Mission San Jose High!
         </p>
 
+
+        <h1 style={{textAlign:"center", marginBottom:"0", marginTop:"5rem"}}>Officers</h1>
+        
         <div className={styles.grid}>
           <AboutCard
             name="Chris"
@@ -55,7 +58,14 @@ const Home: NextPage = () => {
             role="Public Relations Officer/Webmaster"
             description="Insert Cool autobiography"
           />
-          <AboutCard
+          
+        </div>
+
+
+        <h1 style={{textAlign:"center", marginBottom:"1rem", marginTop:"5rem"}}>HIghlighted Members</h1>
+        <div className={styles.grid}>
+
+        <AboutCard
             name="Kevin"
             role="Unoffical Counselor/Good Samaritan Helper"
             description="Insert Cool autobiography"

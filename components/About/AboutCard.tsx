@@ -16,7 +16,7 @@ export const AboutCard = ({
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           src={
-            "https://this-person-does-not-exist.com/img/avatar-0581035a076f01adb2a061321a6977b7.jpg"
+            "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/18/187e319677d6b74ed094b5d3bf9c6a86679f8ce4_full.jpg"
           }
           style={{
             borderRadius: "100%",

@@ -1,10 +1,10 @@
 import ReactMarkdown from "react-markdown";
-import scrapeWritings from "../../data/scrapeWritings";
 import { NextPage } from "next";
 import { Navbar } from "../../components/Navbar";
 import remarkGfm from "remark-gfm";
+import scrapeWritings from "../../data/scrapeWritings";
 
-const SpecificBlog: NextPage = ({ blog }: any) => {
+const SpecificLecture: NextPage = ({ lecture }: any) => {
   return (
     <>
       <Navbar />
@@ -16,33 +16,33 @@ const SpecificBlog: NextPage = ({ blog }: any) => {
           color: "white",
         }}
       >
-        <h1>{blog.data.title}</h1>
+        <h1>{lecture.data.title}</h1>
         <p style={{ textTransform: "uppercase" }}>
-          {new Date(blog.data.date).toLocaleDateString(undefined, {
+          {new Date(lecture.data.date).toLocaleDateString(undefined, {
             dateStyle: "medium",
           })}
         </p>
         <hr />
-        <ReactMarkdown children={blog.content} remarkPlugins={[remarkGfm]} />
+        <ReactMarkdown children={lecture.content} remarkPlugins={[remarkGfm]} />
       </div>
     </>
   );
 };
 
-export default SpecificBlog;
+export default SpecificLecture;
 
 export function getServerSideProps(context: any) {
-  const files = scrapeWritings("blogs");
-  const blog = files.find((blog) => blog.data.slug === context.query.blogid);
+  const files = scrapeWritings("lectures");
+  const lecture = files.find((blog) => blog.data.slug === context.query.lectureid);
 
-  console.log(blog);
+  console.log(lecture);
 
-  if (!blog) {
+  if (!lecture) {
     return {
       notFound: true,
     };
   }
   return {
-    props: { blog },
+    props: { lecture },
   };
 }
