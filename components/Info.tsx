@@ -22,10 +22,7 @@ export const Info = () => {
       <div style={{ maxWidth: "500px" }}>
         <h1 className={styles.cool_stuff}>We talk about really cool stuff.</h1>
         <p className={styles.cool_stuff_stuff}>
-          From memory management to OpenGL, we talk about it all. We talk about
-          all concepts with depth and conciseness, with effective lectures.
-          Attend our meetings to learn about this cool stuff, and to have a
-          great time in the process.
+          Our lectures feature interesting subjects&mdash;everything from data structures and memory management to 3D graphics and networking. Drop by every week to learn something new!
         </p>
       </div>
       {/* </div> */}
