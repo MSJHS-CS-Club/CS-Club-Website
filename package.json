@@ -15,7 +15,7 @@
     "@widgetbot/crate": "^3.3.2",
     "@widgetbot/react-embed": "^1.4.1",
     "gray-matter": "^4.0.3",
-    "next": "12.1.5",
+    "next": "^12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-icons": "^4.3.1",

@@ -21,42 +21,44 @@ const Home: NextPage = () => {
       <div className={styles.special_padding}>
         <h1>About Us</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
-          consectetur sequi sit accusantium vitae vero animi, id sed odio modi
-          doloremque quod! Eligendi nobis officiis tempora facere natus?
-          Laboriosam, eligendi?
+          We are the computer science club at Mission San Jose High!
         </p>
 
         <div className={styles.grid}>
           <AboutCard
-            name="Eggos"
-            role="Chief Egg Master"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis earum, sed quisquam reprehenderit iusto saepe alias enim beatae, nam laborum dignissimos, quibusdam repellat placeat molestiae distinctio facilis doloribus tenetur!"
+            name="Chris"
+            role="President"
+            description="Insert cool autobiography"
           />
           <AboutCard
-            name="Eggos"
-            role="Chief Egg Master"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis earum, sed quisquam reprehenderit iusto saepe alias enim beatae, nam laborum dignissimos, quibusdam repellat placeat molestiae distinctio facilis doloribus tenetur!"
+            name="Pratyay"
+            role="Vice President"
+            description="Insert Cool autobiography"
           />
           <AboutCard
-            name="Eggos"
-            role="Chief Egg Master"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis earum, sed quisquam reprehenderit iusto saepe alias enim beatae, nam laborum dignissimos, quibusdam repellat placeat molestiae distinctio facilis doloribus tenetur!"
+            name="Fuyi"
+            role="Treasurer"
+            description="Insert Cool autobiography"
           />
           <AboutCard
-            name="Eggos"
-            role="Chief Egg Master"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis earum, sed quisquam reprehenderit iusto saepe alias enim beatae, nam laborum dignissimos, quibusdam repellat placeat molestiae distinctio facilis doloribus tenetur!"
+            name="Adrian"
+            role="Secretary"
+            description="Insert Cool autobiography"
           />
           <AboutCard
-            name="Eggos"
-            role="Chief Egg Master"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis earum, sed quisquam reprehenderit iusto saepe alias enim beatae, nam laborum dignissimos, quibusdam repellat placeat molestiae distinctio facilis doloribus tenetur!"
+            name="Jeffery"
+            role="Activities Coordinator"
+            description="Insert Cool autobiography"
           />
           <AboutCard
-            name="Eggos"
-            role="Chief Egg Master"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis earum, sed quisquam reprehenderit iusto saepe alias enim beatae, nam laborum dignissimos, quibusdam repellat placeat molestiae distinctio facilis doloribus tenetur!"
+            name="Shubham"
+            role="Public Relations Officer/Webmaster"
+            description="Insert Cool autobiography"
+          />
+          <AboutCard
+            name="Kevin"
+            role="Unoffical Counselor/Good Samaritan Helper"
+            description="Insert Cool autobiography"
           />
         </div>
       </div>
