@@ -18,11 +18,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <div >
       <div className={styles.special_padding}>
+        
         <h1>About Us</h1>
         <p>
           We are the computer science club at Mission San Jose High!
         </p>
+        </div>
 
 
         <h1 style={{textAlign:"center", marginTop:"5rem"}}>Officers</h1>

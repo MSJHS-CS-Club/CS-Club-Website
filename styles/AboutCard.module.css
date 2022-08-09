@@ -10,7 +10,6 @@
     -webkit-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.42); 
     box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.42);
     border: 5px solid transparent;
-    transform: translateZ(60px);
     background:linear-gradient(var(--background), var(--background)) padding-box, linear-gradient(90deg, rgba(0,187,197,1) 0%, rgba(79,172,254,1) 50%) border-box
   
     
