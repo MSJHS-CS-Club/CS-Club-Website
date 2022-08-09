@@ -2979,6 +2979,11 @@ react-merge-refs@^1.1.0:
   resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-1.1.0.tgz#73d88b892c6c68cbb7a66e0800faa374f4c38b06"
   integrity sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==
 
+react-parallax-tilt@^1.7.51:
+  version "1.7.51"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.51.tgz#8972bc00032dbcfadf455ae9fcfd838694d72b4b"
+  integrity sha512-M8GDpnvwdpq+UwNNSWyx/xzeumxj3bihh3GGGVdxSXWi6leSQ/u/2bnN47xSQKLQK3pEp6uMMlMSEzSEmQxazw==
+
 react-reconciler@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.27.0.tgz#360124fdf2d76447c7491ee5f0e04503ed9acf5b"

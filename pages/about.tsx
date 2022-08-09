@@ -31,12 +31,16 @@ const Home: NextPage = () => {
           <AboutCard
             name="Chris"
             role="President"
-            description="Insert cool autobiography"
+            description="Senior Chris Ge is CS Club’s President. He’s previously been vice president and treasurer. Chris is a competition sweat (USACO gold but that’s not his biggest competition oops), and he likes discovering random overlaps between math and computer science. He also enjoys automating random things that take more than 1 second to do manually. Besides CS, Chris is a co-president of Math Club and co-president of Academic Challenge. He likes to run and wears glasses…(the picture is a lie)
+
+            Beneath that, Chris has a personality. He has the humor of a 6 year old, and plays elite barbarians in clash royale, not because he thinks they’re any good, but because there’s nothing quite like the rush of serotonin of taking a tower in a couple of seconds and then proceeding to spam the laugh emote for the rest of the game. He’s recently started journaling, often philosophical ramblings about Mission and life in general. He’s also happy to talk about his favorite webtoons: Eleceed, Omniscient Reader, and Unordinary!"
           />
           <AboutCard
             name="Pratyay"
             role="Vice President"
-            description="Insert Cool autobiography"
+            description={`Junior Pratyay Pandey is the Vice President of CS Club, previously having been Secretary. Outside of CS Club, Pratyay pursues his passion for CS as the Director of Software for Valkyrie Robotics, Vice President of AI Club, and Vice President of the Technology Students Association at MSJ. In CS, he's most interested in machine learning and low-level programming. Outside of CS, Pratyay is an über nerd who has published papers on proof theory and cares way too much about graphene (it's so cool!) 
+
+            Pratyay enjoys anything caffeinated, spending time with his dog Leki, and attempting to write and read sci-fi novels. You'll frequently find him reading the Remarried Empress or ranting about Star Wars or hover sheep (fear them!) If you want him to shut up, just yell, "Kangaroo." If you want him to never shut up, say one of the following: "Graphene", "Robotics", "Star Wars", or "'80s rock".`}
           />
           <AboutCard
             name="Fuyi"
