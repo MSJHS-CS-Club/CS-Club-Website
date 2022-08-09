@@ -30,7 +30,7 @@ export const Discord = () => {
           textAlign: "center",
         }}
       >
-        C'mon, Join our Discord Server
+        Join our Discord server!
       </h1>
 
       <div className={styles.widget_container}>

@@ -11,7 +11,8 @@ export const Hero = () => {
       <div className={styles.intro}>
         <h1 style={{ fontSize: "clamp(36px,8vw,54px)" }}>MSJ CS Club</h1>
         <p style={{ lineHeight: "1.65em" }}>
-          Mission San Jose High School's computer science club! At MSJ CS, we
+          Welcome to MSJHS's official computer science club.
+          At MSJ CS, we
           are{" "}
           <span
             style={{
