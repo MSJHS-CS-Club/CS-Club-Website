@@ -7,8 +7,8 @@ interface TileProps {
 export const Tile: React.FC<TileProps> = ({ img }) => {
   return (
 
-    <Tilt glareEnable={true}
-    glareMaxOpacity={0.45}  perspective={1200} 
+    <Tilt
+      perspective={1200} 
     
       style={{
         padding: "2.5rem",

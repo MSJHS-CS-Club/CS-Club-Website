@@ -41,9 +41,9 @@ const Home: NextPage = () => {
           <AboutCard
             name="Pratyay"
             role="Vice President"
-            description={`Junior Pratyay Pandey is the Vice President of CS Club, previously having been Secretary. Outside of CS Club, Pratyay pursues his passion for CS as the Director of Software for Valkyrie Robotics, Vice President of AI Club, and Vice President of the Technology Students Association at MSJ. In CS, he's most interested in machine learning and low-level programming. Outside of CS, Pratyay is an über nerd who has published papers on proof theory and cares way too much about graphene (it's so cool!) 
+            description={` Junior Pratyay Pandey is the Vice President of CS Club, previously having been Secretary. Outside of CS Club, Pratyay pursues his passion for CS as the Director of Software for Valkyrie Robotics, Vice President of AI Club, and Vice President of the Technology Students Association at MSJ. In CS, he's most interested in machine learning and low-level programming. Outside of CS, Pratyay is an über nerd who has written papers on proof theory and cares way too much about graphene (it's so cool!).
 
-            Pratyay enjoys anything caffeinated, spending time with his dog Leki, and attempting to write and read sci-fi novels. You'll frequently find him reading the Remarried Empress or ranting about Star Wars or hover sheep (fear them!) If you want him to shut up, just yell, "Kangaroo." If you want him to never shut up, say one of the following: "Graphene", "Robotics", "Star Wars", or "'80s rock".`}
+            Pratyay enjoys anything caffeinated, spending time with his dog Leki, and attempting to write and read sci-fi novels. You'll frequently find him reading the Remarried Empress or ranting about Star Wars or hover sheep (fear them!). If you want him to shut up, just yell, "Kangaroo." If you want him to never shut up, say one of the following: "Graphene", "Robotics", "Star Wars", or "'80s rock".`}
           />
           <AboutCard
             name="Fuyi"
@@ -54,6 +54,7 @@ const Home: NextPage = () => {
             name="Adrian"
             role="Secretary"
             description="Insert Cool autobiography"
+            imgsrc="/adrian.png"
           />
           <AboutCard
             name="Jeffery"
@@ -63,7 +64,12 @@ const Home: NextPage = () => {
           <AboutCard
             name="Shubham"
             role="Public Relations Officer/Webmaster"
-            description="Insert Cool autobiography"
+            description="Shubham likes to deal with fullstack development and knows a lot about building projects for the web. Additionally, he sometimes dabbles with CLI tools. He enjoys building things things that are complex and have many moving parts, to make an astonishing final product. And no, he will not build your website for you. He also has a blog where he writes tutorials and recommendations for technologies/programming tools to use.
+
+            Besides the coding part, he also likes to take photos with his Canon Rebel T3i and admire motorcycles (he knows how to ride them), trains, and planes. Shubham also recommends that you use a mechanical keyboard, and occasionally falls into the mechanical keyboard rabbit hole on YouTube. While he doesn't take out his mountain bike often, he enjoys ripping down dirt trails (thanks gravity!) and smashing tree roots on the way. He also likes playing games such at the Hitman WOA trilogy, which is currently his favorite set of games (probably the only one he'll pick up in his free time). When he's not doing any of those, he's probably watching videos from CGP Grey, Tom Scott, a video essay or other nerdy channels/videos like that 
+            "
+
+            imgsrc="/shubham.jpg"
           />
           
         </div>
