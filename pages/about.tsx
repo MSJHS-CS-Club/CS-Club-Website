@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         </p>
 
 
-        <h1 style={{textAlign:"center", marginBottom:"0", marginTop:"5rem"}}>Officers</h1>
+        <h1 style={{textAlign:"center", marginTop:"5rem"}}>Officers</h1>
         
         <div className={styles.grid}>
           <AboutCard

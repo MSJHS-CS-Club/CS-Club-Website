@@ -16,7 +16,7 @@ export const AboutCard = ({
     
     // <div className={styles.card}>
       <Tilt glareEnable={true}
-glareMaxOpacity={0.45}  perspective={1000} className={styles.card}>
+glareMaxOpacity={0.45}  perspective={1200} className={styles.card}>
       <div className={styles.innerelement}>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <img
