@@ -10,7 +10,7 @@ export default function scrapeWritings(typeOfWriting: scrapeBlogInput) {
   let files = [];
   for (const file of filenames) {
     let data: any = matter(
-      fs.readFileSync(path.join(process.cwd(), "data", "blogs", file), "utf8")
+      fs.readFileSync(path.join(process.cwd(), "data", typeOfWriting, file), "utf8")
     );
     delete data["orig"];
     files.push(data);
