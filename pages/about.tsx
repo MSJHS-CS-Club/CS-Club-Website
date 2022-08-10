@@ -72,7 +72,7 @@ const Home: NextPage = () => {
           />
         </div>
 
-        {/* <h1
+        <h1
           style={{
             textAlign: "center",
             marginBottom: "1rem",
@@ -85,9 +85,10 @@ const Home: NextPage = () => {
           <AboutCard
             name="Kevin"
             role="Unoffical Counselor/Good Samaritan Helper"
-            description="Insert Cool autobiography"
+            imgsrc="/kevin.png"
+            description="kevin s (KS) is someone who's pretty much only remotely good at cs. he's a content manager for the usaco guide & also does a bit of competitive programming"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
