@@ -3,10 +3,14 @@ import scrapeWritings from "../../data/scrapeWritings";
 import { NextPage } from "next";
 import { Navbar } from "../../components/Navbar";
 import remarkGfm from "remark-gfm";
+import Head from "next/head";
 
 const SpecificBlog: NextPage = ({ blog }: any) => {
   return (
     <>
+      <Head>
+        <title>{blog.data.title} | MSJCS Club</title>
+      </Head>
       <Navbar />
       <div
         style={{

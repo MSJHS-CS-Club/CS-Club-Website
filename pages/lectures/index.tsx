@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import Head from "next/head";
 import { Navbar } from "../../components/Navbar";
 import scrapeWritings from "../../data/scrapeWritings";
 
@@ -7,6 +8,9 @@ import styles from "../../styles/BlogIndex.module.css";
 const Lectures: NextPage = ({ posts }: any) => {
   return (
     <div>
+      <Head>
+        <title>Lectures | MSJCS Club</title>
+      </Head>
       <Navbar />
       <h1 className={styles.special_padding}>Lecture Archive</h1>
       <div className={styles.grid}>
