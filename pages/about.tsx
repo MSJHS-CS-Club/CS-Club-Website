@@ -54,7 +54,7 @@ const Home: NextPage = () => {
           <AboutCard
             name="Adrian"
             role="Secretary"
-            description="Insert Cool autobiography"
+            description="Adrian is an avid coder and secretary of the CS club. He is interested in all things computer related, and often finds himself learning new programming skills to build interesting projects. Adrian also enjoys playing Minecraft, which often intersects with his interest in programming in the form of redstone and reverse engineering."
             imgsrc="/adrian.png"
           />
           <AboutCard
