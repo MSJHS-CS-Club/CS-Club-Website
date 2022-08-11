@@ -59,7 +59,8 @@ const Home: NextPage = () => {
           <AboutCard
             name="Jeffery"
             role="Activities Coordinator"
-            description="Insert Cool autobiography"
+            imgsrc="/jeffery.png"
+            description="Jeffrey Zhang is a senior at the MSJ and the activities coordinator of the CS club. He started “programming” in 5th grade using Scratch, posted only a handful out of hundred plus projects following his stubborn standards. Now he is doing competitive programming, hackathons, and game jams. Got couple awards; still salty for missing USACO plat by a sub task. He also loves spending hours just to learn a new tool so he can avoid reinventing another wheel. Outside academics he likes blogging, gaming, reading, drawing, and tech news. And with the trend the world is following he have a wild prediction that in the next few decades, the phones will first be replaced by glasses and transportation systems will then no longer be necessary for many. The fellow readers shall decide how well this will age."
           />
           <AboutCard
             name="Shubham"
