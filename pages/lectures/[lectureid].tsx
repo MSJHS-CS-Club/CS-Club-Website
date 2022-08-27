@@ -26,7 +26,9 @@ const SpecificLecture: NextPage = ({ lecture }: any) => {
             dateStyle: "medium",
           })}
         </p>
-        <hr />
+        <hr
+          style={{ border: "none", height: "1px", backgroundColor: "#333" }}
+        />
         <ReactMarkdown children={lecture.content} remarkPlugins={[remarkGfm]} />
       </div>
     </>
