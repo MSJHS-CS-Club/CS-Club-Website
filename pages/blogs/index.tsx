@@ -15,7 +15,7 @@ const Blogs: NextPage = ({ posts }: any) => {
       <h1 className={styles.special_padding}>Blogs</h1>
       <div className={styles.grid}>
         {posts.length > 0 ? (
-          posts.map((item: any, i: number) => {
+          posts.reverse().map((item: any, i: number) => {
             return (
               <a
                 href={`/blogs/${item.data.slug}`}

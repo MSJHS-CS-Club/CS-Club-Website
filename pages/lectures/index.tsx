@@ -15,7 +15,7 @@ const Lectures: NextPage = ({ posts }: any) => {
       <h1 className={styles.special_padding}>Lecture Archive</h1>
       <div className={styles.grid}>
         {posts.length > 0 ? (
-          posts.map((item: any, i: number) => {
+          posts.reverse().map((item: any, i: number) => {
             return (
               <a
                 href={`/lectures/${item.data.slug}`}
