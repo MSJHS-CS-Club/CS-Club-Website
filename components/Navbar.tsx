@@ -1,4 +1,9 @@
-import { HiHome, HiUserGroup, HiNewspaper, HiPresentationChartBar  } from "react-icons/hi";
+import {
+  HiHome,
+  HiUserGroup,
+  HiNewspaper,
+  HiPresentationChartBar,
+} from "react-icons/hi";
 
 export const Navbar = () => {
   return (
@@ -18,7 +23,7 @@ export const Navbar = () => {
           <p style={{ margin: "0 0 0 0.5rem" }}>Home</p>
         </div>
       </a>
-      <a href="/blogs" style={{ textDecoration: "none" }}>
+      {/* <a href="/blogs" style={{ textDecoration: "none" }}>
         <div
           style={{
             display: "flex",
@@ -32,7 +37,7 @@ export const Navbar = () => {
           <HiNewspaper color="white" size={20} style={{ margin: "0" }} />
           <p style={{ margin: "0 0 0 0.5rem" }}>Blogs</p>
         </div>
-      </a>
+      </a> */}
       <a href="/lectures" style={{ textDecoration: "none" }}>
         <div
           style={{
@@ -44,7 +49,11 @@ export const Navbar = () => {
             marginRight: "0.8rem",
           }}
         >
-          <HiPresentationChartBar color="white" size={20} style={{ margin: "0" }} />
+          <HiPresentationChartBar
+            color="white"
+            size={20}
+            style={{ margin: "0" }}
+          />
           <p style={{ margin: "0 0 0 0.5rem" }}>Lectures</p>
         </div>
       </a>
