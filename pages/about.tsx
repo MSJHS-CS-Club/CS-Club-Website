@@ -48,28 +48,28 @@ const Home: NextPage = () => {
             role="Secretary"
             description="Senior Prabhvir Babra enjoys working in a variety of fields. He has an interest in Computer Security, robotics, and low level systems. Outside of CS, Prabhvir is the creator of the Competitive Pokemon Club and an avid follower of Venomoth because the divine word of Venemoth deserves to be spread across the word across space and time. Prabhvir is also the creator of the comic series Prababamaba Comics, with a focus on surreal, dark, and punny humor. Prabhvir enjoys spending his time playing video games (his favorite series is the Legend of Zelda), reading manga/manhwa, or spending time playing the guitar or saxophone. His music tastes vary dramatically from psychedelic rock, to classical band music, to breakcore, to underground rappers such as Aesop Rock or Deca (or however one would classify the Bran Flakes). At the time of writing, Prabhvir listens to a lto fo J-Pop, rap, and Math Rock.
             "
-            imgsrc="/shubham.jpg"
+            imgsrc="/prabhvir.jpg"
           />
           <AboutCard
             name="Advaith"
             role="Treasurer"
             description="Advaith Mopuri is a sophomore at MSJ and the treasurer of the CS club. Other than CS club, he loves machine learning and low level programming, and hopes to build his own 8-bit computer one day. He also enjoys spending weeks trying to automate anything that requires thinking. Advaith also loves math (both competitions and research), using CS to find cool patterns in math problems (shoutout project Euler), physics, and science bowl. When he’s not doing any of these things, you’ll find him playing with his dog Kipper, reading romance Webtoons, listening to assorted 80s - 00s rock, attempting to shoot a basketball, or spamming 🤡 in Discord.
             "
-            imgsrc="/shubham.jpg"
+            imgsrc="/advaith.png"
           />
           <AboutCard
             name="Sumanth"
             role="Activities Coordinator"
             description="Hi there! I'm Sumanth Pallamreddy, a senior at MSJ. My journey into programming began in 8th grade when I joined a robotics team, and ever since, I've been captivated by the practical applications of CS in the real world. From crafting IoT projects using Arduinos and Raspberry Pi's to exploring anything that connects the digital realm with the physical, I'm fascinated by it all. In my spare time, you'll find me collaborating with friends on hobby projects for hackathons, competitions, or just for the sheer joy of it. When I'm not coding, I love to hit the trails on my mountain bike, challenge myself with a refreshing run, or simply enjoy quality time with friends.
             "
-            imgsrc="/shubham.jpg"
+            imgsrc="/sumanth.jpg"
           />
           <AboutCard
             name="Michael"
             role="Activities Coordinator"
             description="Michael Liu loves programming 3d-rendered applications in OpenGL, writing interpreters for programming languages, and messing around with and collecting vintage computer hardware. He enjoys learning new rendering techniques, and tries to write a small program over a couple of days to demonstrate each one. In addition, he is very specific about how his programs look, often spending hours to get a color just right or to get the look of a post-processing shader to match exactly with what he imagines. While writing interpreters, one of Michael’s other favorite pastimes, he takes it as a challenge and an excuse to learn all the features of the language he’s using, as he thinks learning all the quirks of the syntax of a language is really interesting for some reason. When he works with vintage computers, whether it be installing Windows 98 on an SSD, cleaning up old ThinkPads, or restoring a shipping-damaged IBM PC convertible, he takes care to avoid damaging components and keep them working, so that he can enjoy running old software on them later. His vintage keyboard collection, including an IBM Model M and Model F, keeps growing as he frequently visits the Bay Area Electronics Flea Market. During the rest of his free time, he's either watching Seinfeld or taking a bike ride. 
             "
-            imgsrc="/shubham.jpg"
+            imgsrc="/michael.jpg"
           />
         </div>
 
