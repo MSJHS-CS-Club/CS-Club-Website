@@ -11,9 +11,7 @@ export const Hero = () => {
       <div className={styles.intro}>
         <h1 style={{ fontSize: "clamp(36px,8vw,54px)" }}>MSJ CS Club</h1>
         <p style={{ lineHeight: "1.65em" }}>
-          Welcome to MSJHS's official computer science club.
-          At MSJ CS, we
-          are{" "}
+          Welcome to MSJHS's official computer science club. At MSJ CS, we are{" "}
           <span
             style={{
               backgroundColor: "rgba(87,242,135, 0.5)",
@@ -75,7 +73,7 @@ export const Hero = () => {
             </button>
           </a>
 
-          <a href="/blogs" style={{ textDecoration: "none" }}>
+          <a href="/lectures" style={{ textDecoration: "none" }}>
             <div
               className={styles.button_link}
               style={{
@@ -89,7 +87,7 @@ export const Hero = () => {
                 height: "57px",
               }}
             >
-              <span style={{ marginRight: "10px" }}>Blogs</span>
+              <span style={{ marginRight: "10px" }}>Lectures</span>
               <FaArrowRight size={15} />{" "}
             </div>
           </a>
