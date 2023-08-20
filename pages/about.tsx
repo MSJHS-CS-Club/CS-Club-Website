@@ -29,9 +29,9 @@ const Home: NextPage = () => {
           <AboutCard
             name="Pratyay"
             role="President"
-            description={` Senior Pratyay Pandey is the President of CS Club, previously having been Secretary. Outside of CS Club, Pratyay pursues his passion for CS as the Director of Software for Valkyrie Robotics, Vice President of AI Club, and Vice President of the Technology Students Association at MSJ. In CS, he's most interested in machine learning and low-level programming. Outside of CS, Pratyay is an über nerd who has written papers on proof theory and cares way too much about graphene (it's so cool!).
+            description={` Senior Pratyay Pandey is the President of CS Club, and the founder of the Bay Area Programming Initiative. He is also active on the MSJ campus as the President of the AI Club and Technology Students Association and on the Quiz Bowl and History Bowl teams. In CS, he is primarily involved in low-level programming and robotics. Outside of school, he does research in proof theory and enjoys working on cool code with his friends at Auxilium Technologies. 
 
-            Pratyay enjoys anything caffeinated, spending time with his dog Leki, and attempting to write and read sci-fi novels. You'll frequently find him reading the Remarried Empress or ranting about Star Wars or hover sheep (fear them!). If you want him to shut up, just yell, "Kangaroo." If you want him to never shut up, say one of the following: "Graphene", "Robotics", "Star Wars", or "'80s rock".`}
+            Pratyay can often be seen chugging a Red Bull or spending time with his dog, Leki. You'll frequently find him reading the Remarried Empress, making beats, and talking about F1 races with his friends. If he has headphones on, you may have to tap him on the back to get his attention :)`}
             imgsrc="/pratyay.png"
           />
           <AboutCard
