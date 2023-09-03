@@ -38,6 +38,7 @@ export const AboutCard = ({
                 borderRadius: "100%",
                 width: "150px",
                 height: "150px",
+                objectFit: "cover",
                 border: "5px solid transparent ",
                 background:
                   "linear-gradient(var(--background), var(--background)) padding-box, linear-gradient(90deg, rgba(0,187,197,1) 0%, rgba(79,172,254,1) 50%) border-box",
